@@ -257,6 +257,8 @@ $(function() {
   }).on('typeahead:selected', function(ev) {
 
     var results = $('section#results');
+
+
     results.empty();
 
     var selectedApi = $(ev.target).val();
@@ -289,7 +291,11 @@ $(function() {
             });
           }
 
-          var span = $('<span>', {"class" : "description"}).text(block.description);
+          var span = $('<span>', {"class" : "description"})
+            .text(block.description.length ?
+              block.description :
+              "No title provided"
+            );
           span.appendTo(a);
           a.appendTo(results);
 

@@ -1,6 +1,7 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 <head>
-  <title>d3.js Examples</title>
+  <title>bl.ocksplorer.org</title>
   <link rel="stylesheet" type="text/css" href="bower_components/normalize-css/normalize.css">
   <link rel="stylesheet" type="text/css" href="css/styles.css">
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,12 +12,12 @@
   <section id="main">
 
     <header>
-      d3 examples
+      bl.ocksplorer.org
     </header>
 
     <section id="search">
       <p>
-        Many examples of d3.js usage are posted daily on <a href="http://bl.ocks.org/">http://bl.ocks.org/</a>, however they aren't easy to find. If you are looking for a specific example of how to use a particular API call, you may be out of luck... until now.
+        Many examples of <a href="d3js.org">d3.js</a> usage are posted daily on <a href="http://bl.ocks.org/">http://bl.ocks.org/</a>, however they aren't easy to find. If you are looking for a specific example of how to use a particular API call, you may be out of luck... until now.
       </p>
 
       <p>
@@ -29,12 +30,18 @@
     <section id="results">
 
     </section>
+
+    <section id="add">
+      Are we missing some blocks? That's because we are scanning for specific users! <br>You should <a href="https://docs.google.com/forms/d/1VdDdycNuqJVw3Ik6-ZLj6v7X9g2vWlw_RCC3RCfD9-I/viewform">submit a github username</a> for us to scan. Scans happen every 4 hours so you won't see your changes right away.
+    </section>
+
+    <footer>
+      Brought to you by <a href="http://ireneros.com">Irene Ros</a> and <a href="http://bocoup.com">Bocoup</a>. <br>
+      Thanks go out to <a href="http://tbranyen.com">Tim Branyen</a>.
+    </footer>
+
   </section>
 
-  <script type="text/template" id="gist">
-    <a class="gist" href="<%= url %>" style="background-image: url(<%= thumbnail %>);"><span class="description"><%= description %></span>
-    </a>
-  </script>
 
   <script type="text/javascript" src="src/script.js"></script>
 </body>

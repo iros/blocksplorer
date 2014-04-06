@@ -1,19 +1,52 @@
+body {
+  font-family: "Helvetica Neue", Helvetica, sans-serif;
+}
+
+section, footer {
+  display: inline-block;
+}
+
 section#main {
   width: 960px;
   margin: 0 auto;
-  padding-top: 50px;
+  padding-top: 30px;
+  display: block;
 }
 
-section#results {
+section#results, section#add {
   margin-top: 40px;
+  width: 100%;
 }
+
 header {
-  font-size: 2em;
-  font-weight: bold;
-  margin-bottom: 20px;
+  font-size: 64px;
+  font-weight: 300;
+  letter-spacing: -2px;
+  margin: .3em 0 .1em 0;
+}
+
+footer {
+  font-size: 0.9em;
+  color: #777;
+  margin-top: 30px;
+}
+
+a {
+  text-decoration: none;
+  color: steelblue;
+}
+
+a:hover {
+  color: steelblue;
+  text-decoration: underline;
+}
+
+p, footer {
+  line-height: 1.5em;
 }
 
 .small {
+  margin-top: 10px;
   font-size: 0.8em;
   color: #777;
   display: block;
@@ -160,4 +193,3 @@ a.gist:hover .description {
   display: block;
   font-size: smaller;
 }
-
