@@ -1,0 +1,878 @@
+[
+  {
+    "id": 1,
+    "name": "d3.select"
+  },
+  {
+    "id": 2,
+    "name": "d3.selectAll"
+  },
+  {
+    "id": 3,
+    "name": "d3.selection"
+  },
+  {
+    "id": 4,
+    "name": "d3.event"
+  },
+  {
+    "id": 5,
+    "name": "d3.mouse"
+  },
+  {
+    "id": 6,
+    "name": "d3.touch"
+  },
+  {
+    "id": 7,
+    "name": "d3.touches"
+  },
+  {
+    "id": 8,
+    "name": "d3.transition"
+  },
+  {
+    "id": 9,
+    "name": "d3.ease"
+  },
+  {
+    "id": 10,
+    "name": "d3.timer"
+  },
+  {
+    "id": 11,
+    "name": "d3.timer.flush"
+  },
+  {
+    "id": 12,
+    "name": "d3.interpolate"
+  },
+  {
+    "id": 13,
+    "name": "d3.interpolateNumber"
+  },
+  {
+    "id": 14,
+    "name": "d3.interpolateRound"
+  },
+  {
+    "id": 15,
+    "name": "d3.interpolateString"
+  },
+  {
+    "id": 16,
+    "name": "d3.interpolateRgb"
+  },
+  {
+    "id": 17,
+    "name": "d3.interpolateHsl"
+  },
+  {
+    "id": 18,
+    "name": "d3.interpolateLab"
+  },
+  {
+    "id": 19,
+    "name": "d3.interpolateHcl"
+  },
+  {
+    "id": 20,
+    "name": "d3.interpolateArray"
+  },
+  {
+    "id": 21,
+    "name": "d3.interpolateObject"
+  },
+  {
+    "id": 22,
+    "name": "d3.interpolateTransform"
+  },
+  {
+    "id": 23,
+    "name": "d3.interpolateZoom"
+  },
+  {
+    "id": 24,
+    "name": "d3.interpolators"
+  },
+  {
+    "id": 25,
+    "name": "d3.ascending"
+  },
+  {
+    "id": 26,
+    "name": "d3.descending"
+  },
+  {
+    "id": 27,
+    "name": "d3.min"
+  },
+  {
+    "id": 28,
+    "name": "d3.max"
+  },
+  {
+    "id": 29,
+    "name": "d3.extent"
+  },
+  {
+    "id": 30,
+    "name": "d3.sum"
+  },
+  {
+    "id": 31,
+    "name": "d3.mean"
+  },
+  {
+    "id": 32,
+    "name": "d3.median"
+  },
+  {
+    "id": 33,
+    "name": "d3.quantile"
+  },
+  {
+    "id": 34,
+    "name": "d3.bisect"
+  },
+  {
+    "id": 35,
+    "name": "d3.bisectRight"
+  },
+  {
+    "id": 36,
+    "name": "d3.bisectLeft"
+  },
+  {
+    "id": 37,
+    "name": "d3.bisector"
+  },
+  {
+    "id": 38,
+    "name": "d3.shuffle"
+  },
+  {
+    "id": 39,
+    "name": "d3.permute"
+  },
+  {
+    "id": 40,
+    "name": "d3.zip"
+  },
+  {
+    "id": 41,
+    "name": "d3.transpose"
+  },
+  {
+    "id": 42,
+    "name": "d3.pairs"
+  },
+  {
+    "id": 43,
+    "name": "d3.keys"
+  },
+  {
+    "id": 44,
+    "name": "d3.values"
+  },
+  {
+    "id": 45,
+    "name": "d3.entries"
+  },
+  {
+    "id": 46,
+    "name": "d3.merge"
+  },
+  {
+    "id": 47,
+    "name": "d3.range"
+  },
+  {
+    "id": 48,
+    "name": "d3.nest"
+  },
+  {
+    "id": 49,
+    "name": "d3.map"
+  },
+  {
+    "id": 50,
+    "name": "d3.set"
+  },
+  {
+    "id": 51,
+    "name": "d3.random.normal"
+  },
+  {
+    "id": 52,
+    "name": "d3.random.logNormal"
+  },
+  {
+    "id": 53,
+    "name": "d3.random.bates"
+  },
+  {
+    "id": 54,
+    "name": "d3.random.irwinHall"
+  },
+  {
+    "id": 55,
+    "name": "d3.transform"
+  },
+  {
+    "id": 56,
+    "name": "d3.xhr"
+  },
+  {
+    "id": 57,
+    "name": "d3.text"
+  },
+  {
+    "id": 58,
+    "name": "d3.json"
+  },
+  {
+    "id": 59,
+    "name": "d3.html"
+  },
+  {
+    "id": 60,
+    "name": "d3.xml"
+  },
+  {
+    "id": 61,
+    "name": "d3.csv"
+  },
+  {
+    "id": 62,
+    "name": "d3.tsv"
+  },
+  {
+    "id": 63,
+    "name": "d3.format"
+  },
+  {
+    "id": 64,
+    "name": "d3.formatPrefix"
+  },
+  {
+    "id": 65,
+    "name": "d3.requote"
+  },
+  {
+    "id": 66,
+    "name": "d3.round"
+  },
+  {
+    "id": 67,
+    "name": "d3.csv"
+  },
+  {
+    "id": 68,
+    "name": "d3.csv"
+  },
+  {
+    "id": 69,
+    "name": "d3.csv.parse"
+  },
+  {
+    "id": 70,
+    "name": "d3.csv.parseRows"
+  },
+  {
+    "id": 71,
+    "name": "d3.csv.format"
+  },
+  {
+    "id": 72,
+    "name": "d3.csv.formatRows"
+  },
+  {
+    "id": 73,
+    "name": "d3.tsv"
+  },
+  {
+    "id": 74,
+    "name": "d3.tsv.parse"
+  },
+  {
+    "id": 75,
+    "name": "d3.tsv.parseRows"
+  },
+  {
+    "id": 76,
+    "name": "d3.tsv.format"
+  },
+  {
+    "id": 77,
+    "name": "d3.tsv.formatRows"
+  },
+  {
+    "id": 78,
+    "name": "d3.dsv"
+  },
+  {
+    "id": 79,
+    "name": "d3.locale"
+  },
+  {
+    "id": 80,
+    "name": "d3.rgb"
+  },
+  {
+    "id": 81,
+    "name": "d3.hsl"
+  },
+  {
+    "id": 82,
+    "name": "d3.lab"
+  },
+  {
+    "id": 83,
+    "name": "d3.hcl"
+  },
+  {
+    "id": 84,
+    "name": "d3.ns.prefix"
+  },
+  {
+    "id": 85,
+    "name": "d3.ns.qualify"
+  },
+  {
+    "id": 86,
+    "name": "d3.functor"
+  },
+  {
+    "id": 87,
+    "name": "d3.rebind"
+  },
+  {
+    "id": 88,
+    "name": "d3.dispatch"
+  },
+  {
+    "id": 89,
+    "name": "d3.scale"
+  },
+  {
+    "id": 90,
+    "name": "d3.scale.linear"
+  },
+  {
+    "id": 91,
+    "name": "d3.scale.sqrt"
+  },
+  {
+    "id": 92,
+    "name": "d3.scale.pow"
+  },
+  {
+    "id": 93,
+    "name": "d3.scale.log"
+  },
+  {
+    "id": 94,
+    "name": "d3.scale.quantize"
+  },
+  {
+    "id": 95,
+    "name": "d3.scale.threshold"
+  },
+  {
+    "id": 96,
+    "name": "d3.scale.quantile"
+  },
+  {
+    "id": 97,
+    "name": "d3.scale.identity"
+  },
+  {
+    "id": 98,
+    "name": "d3.scale.ordinal"
+  },
+  {
+    "id": 99,
+    "name": "d3.scale.category"
+  },
+  {
+    "id": 100,
+    "name": "d3.scale.category"
+  },
+  {
+    "id": 101,
+    "name": "d3.scale.category"
+  },
+  {
+    "id": 102,
+    "name": "d3.scale.category"
+  },
+  {
+    "id": 103,
+    "name": "d3.svg"
+  },
+  {
+    "id": 104,
+    "name": "d3.svg.line"
+  },
+  {
+    "id": 105,
+    "name": "d3.svg.line.radial"
+  },
+  {
+    "id": 106,
+    "name": "d3.svg.area"
+  },
+  {
+    "id": 107,
+    "name": "d3.svg.area.radial"
+  },
+  {
+    "id": 108,
+    "name": "d3.svg.arc"
+  },
+  {
+    "id": 109,
+    "name": "d3.svg.symbol"
+  },
+  {
+    "id": 110,
+    "name": "d3.svg.symbolTypes"
+  },
+  {
+    "id": 111,
+    "name": "d3.svg.chord"
+  },
+  {
+    "id": 112,
+    "name": "d3.svg.diagonal"
+  },
+  {
+    "id": 113,
+    "name": "d3.svg.diagonal.radial"
+  },
+  {
+    "id": 114,
+    "name": "d3.svg.axis"
+  },
+  {
+    "id": 115,
+    "name": "d3.svg.brush"
+  },
+  {
+    "id": 116,
+    "name": "d3.time"
+  },
+  {
+    "id": 117,
+    "name": "d3.time.format"
+  },
+  {
+    "id": 118,
+    "name": "d3.time.format.multi"
+  },
+  {
+    "id": 119,
+    "name": "d3.time.format.utc"
+  },
+  {
+    "id": 120,
+    "name": "d3.time.format.iso"
+  },
+  {
+    "id": 121,
+    "name": "d3.time.scale"
+  },
+  {
+    "id": 122,
+    "name": "d3.time.interval"
+  },
+  {
+    "id": 123,
+    "name": "d3.time.day"
+  },
+  {
+    "id": 124,
+    "name": "d3.time.days"
+  },
+  {
+    "id": 125,
+    "name": "d3.time.dayOfYear"
+  },
+  {
+    "id": 126,
+    "name": "d3.time.hour"
+  },
+  {
+    "id": 127,
+    "name": "d3.time.hours"
+  },
+  {
+    "id": 128,
+    "name": "d3.time.minute"
+  },
+  {
+    "id": 129,
+    "name": "d3.time.minutes"
+  },
+  {
+    "id": 130,
+    "name": "d3.time.month"
+  },
+  {
+    "id": 131,
+    "name": "d3.time.months"
+  },
+  {
+    "id": 132,
+    "name": "d3.time.second"
+  },
+  {
+    "id": 133,
+    "name": "d3.time.seconds"
+  },
+  {
+    "id": 134,
+    "name": "d3.time.sunday"
+  },
+  {
+    "id": 135,
+    "name": "d3.time.sundays"
+  },
+  {
+    "id": 136,
+    "name": "d3.time.sundayOfYear"
+  },
+  {
+    "id": 137,
+    "name": "d3.time.monday"
+  },
+  {
+    "id": 138,
+    "name": "d3.time.mondays"
+  },
+  {
+    "id": 139,
+    "name": "d3.time.mondayOfYear"
+  },
+  {
+    "id": 140,
+    "name": "d3.time.tuesday"
+  },
+  {
+    "id": 141,
+    "name": "d3.time.tuesdays"
+  },
+  {
+    "id": 142,
+    "name": "d3.time.tuesdayOfYear"
+  },
+  {
+    "id": 143,
+    "name": "d3.time.wednesday"
+  },
+  {
+    "id": 144,
+    "name": "d3.time.wednesdays"
+  },
+  {
+    "id": 145,
+    "name": "d3.time.wednesdayOfYear"
+  },
+  {
+    "id": 146,
+    "name": "d3.time.thursday"
+  },
+  {
+    "id": 147,
+    "name": "d3.time.thursdays"
+  },
+  {
+    "id": 148,
+    "name": "d3.time.thursdayOfYear"
+  },
+  {
+    "id": 149,
+    "name": "d3.time.friday"
+  },
+  {
+    "id": 150,
+    "name": "d3.time.fridays"
+  },
+  {
+    "id": 151,
+    "name": "d3.time.fridayOfYear"
+  },
+  {
+    "id": 152,
+    "name": "d3.time.saturday"
+  },
+  {
+    "id": 153,
+    "name": "d3.time.saturdays"
+  },
+  {
+    "id": 154,
+    "name": "d3.time.saturdayOfYear"
+  },
+  {
+    "id": 155,
+    "name": "d3.time.week"
+  },
+  {
+    "id": 156,
+    "name": "d3.time.weeks"
+  },
+  {
+    "id": 157,
+    "name": "d3.time.weekOfYear"
+  },
+  {
+    "id": 158,
+    "name": "d3.time.year"
+  },
+  {
+    "id": 159,
+    "name": "d3.time.years"
+  },
+  {
+    "id": 160,
+    "name": "d3.layout"
+  },
+  {
+    "id": 161,
+    "name": "d3.layout.bundle"
+  },
+  {
+    "id": 162,
+    "name": "d3.layout.chord"
+  },
+  {
+    "id": 163,
+    "name": "d3.layout.cluster"
+  },
+  {
+    "id": 164,
+    "name": "d3.layout.force"
+  },
+  {
+    "id": 165,
+    "name": "d3.layout.hierarchy"
+  },
+  {
+    "id": 166,
+    "name": "d3.layout.histogram"
+  },
+  {
+    "id": 167,
+    "name": "d3.layout.pack"
+  },
+  {
+    "id": 168,
+    "name": "d3.layout.partition"
+  },
+  {
+    "id": 169,
+    "name": "d3.layout.pie"
+  },
+  {
+    "id": 170,
+    "name": "d3.layout.stack"
+  },
+  {
+    "id": 171,
+    "name": "d3.layout.tree"
+  },
+  {
+    "id": 172,
+    "name": "d3.layout.treemap"
+  },
+  {
+    "id": 173,
+    "name": "d3.geo"
+  },
+  {
+    "id": 174,
+    "name": "d3.geo.path"
+  },
+  {
+    "id": 175,
+    "name": "d3.geo.graticule"
+  },
+  {
+    "id": 176,
+    "name": "d3.geo.circle"
+  },
+  {
+    "id": 177,
+    "name": "d3.geo.area"
+  },
+  {
+    "id": 178,
+    "name": "d3.geo.bounds"
+  },
+  {
+    "id": 179,
+    "name": "d3.geo.centroid"
+  },
+  {
+    "id": 180,
+    "name": "d3.geo.distance"
+  },
+  {
+    "id": 181,
+    "name": "d3.geo.interpolate"
+  },
+  {
+    "id": 182,
+    "name": "d3.geo.length"
+  },
+  {
+    "id": 183,
+    "name": "d3.geo.rotation"
+  },
+  {
+    "id": 184,
+    "name": "d3.geo.projection"
+  },
+  {
+    "id": 185,
+    "name": "d3.geo.projectionMutator"
+  },
+  {
+    "id": 186,
+    "name": "d3.geo.albers"
+  },
+  {
+    "id": 187,
+    "name": "d3.geo.albersUsa"
+  },
+  {
+    "id": 188,
+    "name": "d3.geo.azimuthalEqualArea"
+  },
+  {
+    "id": 189,
+    "name": "d3.geo.azimuthalEquidistant"
+  },
+  {
+    "id": 190,
+    "name": "d3.geo.conicConformal"
+  },
+  {
+    "id": 191,
+    "name": "d3.geo.conicEquidistant"
+  },
+  {
+    "id": 192,
+    "name": "d3.geo.conicEqualArea"
+  },
+  {
+    "id": 193,
+    "name": "d3.geo.equirectangular"
+  },
+  {
+    "id": 194,
+    "name": "d3.geo.gnomonic"
+  },
+  {
+    "id": 195,
+    "name": "d3.geo.mercator"
+  },
+  {
+    "id": 196,
+    "name": "d3.geo.orthographic"
+  },
+  {
+    "id": 197,
+    "name": "d3.geo.stereographic"
+  },
+  {
+    "id": 198,
+    "name": "d3.geo.azimuthalEqualArea.raw"
+  },
+  {
+    "id": 199,
+    "name": "d3.geo.azimuthalEquidistant.raw"
+  },
+  {
+    "id": 200,
+    "name": "d3.geo.conicConformal.raw"
+  },
+  {
+    "id": 201,
+    "name": "d3.geo.conicEquidistant.raw"
+  },
+  {
+    "id": 202,
+    "name": "d3.geo.conicEqualArea.raw"
+  },
+  {
+    "id": 203,
+    "name": "d3.geo.equirectangular.raw"
+  },
+  {
+    "id": 204,
+    "name": "d3.geo.gnomonic.raw"
+  },
+  {
+    "id": 205,
+    "name": "d3.geo.mercator.raw"
+  },
+  {
+    "id": 206,
+    "name": "d3.geo.orthographic.raw"
+  },
+  {
+    "id": 207,
+    "name": "d3.geo.stereographic.raw"
+  },
+  {
+    "id": 208,
+    "name": "d3.geo.transverseMercator.raw"
+  },
+  {
+    "id": 209,
+    "name": "d3.geo.stream"
+  },
+  {
+    "id": 210,
+    "name": "d3.geo.transform"
+  },
+  {
+    "id": 211,
+    "name": "d3.geo.clipExtent"
+  },
+  {
+    "id": 212,
+    "name": "d3.geom"
+  },
+  {
+    "id": 213,
+    "name": "d3.geom.voronoi"
+  },
+  {
+    "id": 214,
+    "name": "d3.geom.quadtree"
+  },
+  {
+    "id": 215,
+    "name": "d3.geom.polygon"
+  },
+  {
+    "id": 216,
+    "name": "d3.geom.hull"
+  },
+  {
+    "id": 217,
+    "name": "d3.behavior"
+  },
+  {
+    "id": 218,
+    "name": "d3.behavior.drag"
+  },
+  {
+    "id": 219,
+    "name": "d3.behavior.zoom"
+  }
+]
