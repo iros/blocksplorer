@@ -29,9 +29,9 @@ define(function(require) {
   });
 
   // Use pushState
-  App.Router.reopen({
-    location: 'history'
-  });
+  // App.Router.reopen({
+  //   location: 'history'
+  // });
 
   return App;
 });
