@@ -1,5 +1,6 @@
 body {
-  font-family: "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "Arial", Helvetica, sans-serif;
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
 }
 
 section, footer {
@@ -23,6 +24,7 @@ header {
   font-weight: 300;
   letter-spacing: -2px;
   margin: .3em 0 .1em 0;
+  font-family: "Quicksand", Helvetica, sans-serif;
 }
 
 footer {
@@ -33,16 +35,16 @@ footer {
 
 a {
   text-decoration: none;
-  color: steelblue;
+  color: #219C52;
 }
 
 a:hover {
-  color: steelblue;
+  color: #0C5E2D;
   text-decoration: underline;
 }
 
 p, footer {
-  line-height: 1.5em;
+  line-height: 1.2em;
 }
 
 .small {
@@ -145,17 +147,14 @@ a.gist {
   -webkit-box-sizing: border-box;
   display: inline-block;
   float: left;
-  height: 80px;
+  height: 120px;
   line-height: normal;
   margin: 0 10px 10px 0;
   position: relative;
-  text-shadow: 0 1px 0 #fff;
-  transition: ease 750ms background-position;
-  -webkit-transition: ease 750ms background-position;
-  -moz-transition: ease 750ms background-position;
-  -ms-transition: ease 750ms background-position;
-  -o-transition: ease 750ms background-position;
+  font-size :1.1em;
   width: 230px;
+  background-color: white;
+  color: black;
 }
 
 a.gist:nth-child(4n) {
@@ -165,8 +164,8 @@ a.gist:nth-child(4n) {
 a.gist:hover,
 a.gist:focus {
   background-color: #eee;
-  background-position: 50% 100%;
   text-decoration: none;
+  border: 1px solid #219C52;
 }
 
 a.gist .description,
@@ -177,15 +176,13 @@ a.gist .date {
 }
 
 a.gist .description {
-  top: 0;
-}
-
-a.gist .date {
   bottom: 0;
 }
 
-a.gist:hover .description {
-  text-decoration: underline;
+a.gist .user {
+  bottom: 0;
+  font-size: 0.7em;
+  color: #555;
 }
 
 .date {

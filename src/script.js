@@ -296,7 +296,15 @@ $(function() {
               block.description :
               "No title provided"
             );
+
           span.appendTo(a);
+          if (block.userId) {
+            var span2 = $('<span>', {"class" : "user"})
+              .html("<br> by " + block.userId);
+
+            span2.appendTo(span);
+          }
+
           a.appendTo(results);
 
         });
