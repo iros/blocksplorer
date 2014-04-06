@@ -1,6 +1,6 @@
 body {
   font-family: "Arial", Helvetica, sans-serif;
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNjY2MiPjwvcmVjdD4KPC9zdmc+");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI1IiBoZWlnaHQ9IjUiPgo8cmVjdCB3aWR0aD0iNSIgaGVpZ2h0PSI1IiBmaWxsPSIjZmZmIj48L3JlY3Q+CjxyZWN0IHdpZHRoPSIxIiBoZWlnaHQ9IjEiIGZpbGw9IiNkZGQiPjwvcmVjdD4KPC9zdmc+");
 }
 
 section, footer {
@@ -21,10 +21,12 @@ section#results, section#add {
 
 header {
   font-size: 64px;
-  font-weight: 300;
+  font-weight: 900;
   letter-spacing: -2px;
   margin: .3em 0 .1em 0;
-  font-family: "Quicksand", Helvetica, sans-serif;
+  color: #219C52;
+  text-shadow: 4px 4px #0C5E2D;
+  font-family: "Raleway", Helvetica, sans-serif;
 }
 
 footer {
