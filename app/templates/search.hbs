@@ -1,6 +1,11 @@
-<h3>searching for "{{query}}"</h3>
+<h3>Results for "{{query}}"</h3>
 {{#each block in blocks}}
-  {{block.id}}
-  {{block.name}}
-  {{block.thumbnail}}<br><br>
+  <a class="gist" href="{{unbound block.url}}" style="background-image: url({{unbound block.thumbnail}});">
+    <span class="description">
+      {{block.description}}
+      <span class="user">
+        <br>by {{block.userId}}
+      </span>
+    </span>
+  </a>
 {{/each}}

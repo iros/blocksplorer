@@ -15,6 +15,11 @@ define(function(require) {
       var blocks = [];
       for(var blockId in model.blocks) {
         var block = model.blocks[blockId];
+
+        block.url = block.thumbnail.length > 0 ?
+          "http://bl.ocks.org/" + block.userId + "/" + blockId :
+          "http://gist.github.com/" + blockId;
+
         block.id = blockId;
         blocks.push(block);
       }
