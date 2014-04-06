@@ -292,7 +292,7 @@ $(function() {
           }
 
           var span = $('<span>', {"class" : "description"})
-            .text(block.description.length ?
+            .text(block.description !== null ?
               block.description :
               "No title provided"
             );
