@@ -1,0 +1,33 @@
+<section id="main">
+
+  <header>
+    bl.ocksplorer.org
+  </header>
+
+  <section id="search">
+    <p>
+      Many examples of <a href="d3js.org">d3.js</a> usage are posted daily on <a href="http://bl.ocks.org/">http://bl.ocks.org/</a>, however they aren't easy to find. If you are looking for a specific example of how to use a particular API call, you may be out of luck... until now.
+    </p>
+
+    <p>
+      Type any d3 API call below and see the blocks (or gists) that use it.
+    </p>
+    <form {{action "searchSubmit" on="submit"}}>
+      {{view 'typeahead' search=search value=search.query application=controller}}
+      <button type="submit">submit</button>
+      <div class="small">Start typing any d3 api name, for example <code>d3.svg.axis</code>...</div>
+    </form>
+  </section>
+
+  {{outlet}}
+
+  <section id="add">
+    Are we missing some blocks? That's because we are scanning for specific users! <br>You should <a href="https://docs.google.com/forms/d/1VdDdycNuqJVw3Ik6-ZLj6v7X9g2vWlw_RCC3RCfD9-I/viewform">submit a github username</a> for us to scan. Scans happen every 4 hours so you won't see your changes right away.
+  </section>
+
+  <footer>
+    Brought to you by <a href="http://ireneros.com">Irene Ros</a> and <a href="http://bocoup.com">Bocoup</a>. <br>
+    Thanks go out to <a href="http://tbranyen.com">Tim Branyen</a>.
+  </footer>
+
+</section>
