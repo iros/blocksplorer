@@ -21,6 +21,10 @@ module.exports = (grunt) ->
         cwd: 'assets'
         src: '**/*'
         dest: 'public'
+      cname:
+        expand: true
+        src: 'CNAME'
+        dest: 'public'
 
     watch:
       options:
