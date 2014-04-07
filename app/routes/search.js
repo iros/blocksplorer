@@ -7,7 +7,9 @@ define(function(require) {
     model: function(params) {
       var api = params.query;
       var url = config.s3_endpoint+api+".json";
-      return Ember.$.getJSON(url);
+      return Ember.$.getJSON(url).then(null, function() {
+        return {query: params.query};
+      });
     },
     setupController: function(controller, model) {
       // it would be better if blocks was stored as
