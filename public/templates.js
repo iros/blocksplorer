@@ -6,7 +6,7 @@ helpers = this.merge(helpers, Ember.Handlebars.helpers); data = data || {};
   var buffer = '', stack1, escapeExpression=this.escapeExpression;
 
 
-  data.buffer.push("<section id=\"main\">\n\n  <header>\n    bl.ocksplorer.org\n  </header>\n\n  <section id=\"search\">\n    <p>\n      Many examples of <a href=\"d3js.org\">d3.js</a> usage are posted daily on <a href=\"http://bl.ocks.org/\">http://bl.ocks.org/</a>, however they aren't easy to find. If you are looking for a specific example of how to use a particular API call, you may be out of luck... until now.\n    </p>\n\n    <p>\n      Type any d3 API call below and see the blocks (or gists) that use it.\n    </p>\n    <form ");
+  data.buffer.push("<section id=\"main\">\n\n  <header>\n    bl.ocksplorer.org\n  </header>\n\n  <section id=\"search\">\n    <p>\n      Many examples of <a href=\"http://d3js.org/\">d3.js</a> usage are posted daily on <a href=\"http://bl.ocks.org/\">http://bl.ocks.org/</a>, however they aren't easy to find. If you are looking for a specific example of how to use a particular API call, you may be out of luck... until now.\n    </p>\n\n    <p>\n      Type any d3 API call below and see the blocks (or gists) that use it.\n    </p>\n    <form ");
   data.buffer.push(escapeExpression(helpers.action.call(depth0, "searchSubmit", {hash:{
     'on': ("submit")
   },hashTypes:{'on': "STRING"},hashContexts:{'on': depth0},contexts:[depth0],types:["STRING"],data:data})));
