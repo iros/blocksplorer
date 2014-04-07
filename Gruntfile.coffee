@@ -25,6 +25,10 @@ module.exports = (grunt) ->
         expand: true
         src: 'CNAME'
         dest: 'public'
+      readme:
+        expand: true
+        src: 'README.md'
+        dest: 'public'
 
     watch:
       options:
