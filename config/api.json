@@ -874,5 +874,425 @@
   {
     "id": 219,
     "name": "d3.behavior.zoom"
+  },
+  {
+    "id": 220,
+    "name": "d3.box"
+  },
+  {
+    "id": 221,
+    "name": "d3.bullet"
+  },
+  {
+    "id": 222,
+    "name": "d3.chernoff"
+  },
+  {
+    "id": 223,
+    "name": "d3.fisheye"
+  },
+  {
+    "id": 224,
+    "name": "d3.force_labels"
+  },
+  {
+    "id": 225,
+    "name": "d3.geo.polyhedron"
+  },
+  {
+    "id": 226,
+    "name": "d3.geo.polyhedron.butterfly"
+  },
+  {
+    "id": 227,
+    "name": "d3.geo.polyhedron.waterman"
+  },
+  {
+    "id": 228,
+    "name": "d3.geo.tile"
+  },
+  {
+    "id": 229,
+    "name": "d3.geodesic"
+  },
+  {
+    "id": 230,
+    "name": "d3.geom.contour"
+  },
+  {
+    "id": 231,
+    "name": "d3.graph"
+  },
+  {
+    "id": 232,
+    "name": "d3.hexbin"
+  },
+  {
+    "id": 233,
+    "name": "d3.hive"
+  },
+  {
+    "id": 234,
+    "name": "d3.horizon"
+  },
+  {
+    "id": 235,
+    "name": "d3.interpolateZoom"
+  },
+  {
+    "id": 236,
+    "name": "d3.jsonp"
+  },
+  {
+    "id": 237,
+    "name": "d3.keybinding"
+  },
+  {
+    "id": 238,
+    "name": "d3.longscroll"
+  },
+  {
+    "id": 239,
+    "name": "d3.qq"
+  },
+  {
+    "id": 240,
+    "name": "d3.rollup"
+  },
+  {
+    "id": 241,
+    "name": "d3.sankey"
+  },
+  {
+    "id": 242,
+    "name": "d3.superformula"
+  },
+  {
+    "id": 243,
+    "name": "d3.urlencode"
+  },
+  {
+    "id": 244,
+    "name": "d3.geo.aitoff"
+  },
+  {
+    "id": 245,
+    "name": "d3.geo.airy"
+  },
+  {
+    "id": 246,
+    "name": "d3.geo.albers"
+  },
+  {
+    "id": 247,
+    "name": "d3.geo.armadillo"
+  },
+  {
+    "id": 248,
+    "name": "d3.geo.august"
+  },
+  {
+    "id": 249,
+    "name": "d3.geo.azimuthalEqualArea"
+  },
+  {
+    "id": 250,
+    "name": "d3.geo.azimuthalEquidistant"
+  },
+  {
+    "id": 251,
+    "name": "d3.geo.baker"
+  },
+  {
+    "id": 252,
+    "name": "d3.geo.berghaus"
+  },
+  {
+    "id": 253,
+    "name": "d3.geo.boggs"
+  },
+  {
+    "id": 254,
+    "name": "d3.geo.bonne"
+  },
+  {
+    "id": 255,
+    "name": "d3.geo.bromley"
+  },
+  {
+    "id": 256,
+    "name": "d3.geo.chamberlin"
+  },
+  {
+    "id": 257,
+    "name": "d3.geo.collignon"
+  },
+  {
+    "id": 258,
+    "name": "d3.geo.conicConformal"
+  },
+  {
+    "id": 259,
+    "name": "d3.geo.conicEquidistant"
+  },
+  {
+    "id": 260,
+    "name": "d3.geo.craig"
+  },
+  {
+    "id": 261,
+    "name": "d3.geo.craster"
+  },
+  {
+    "id": 262,
+    "name": "d3.geo.cylindricalEqualArea"
+  },
+  {
+    "id": 263,
+    "name": "d3.geo.cylindricalStereographic"
+  },
+  {
+    "id": 264,
+    "name": "d3.geo.eckert1"
+  },
+  {
+    "id": 265,
+    "name": "d3.geo.eckert2"
+  },
+  {
+    "id": 266,
+    "name": "d3.geo.eckert3"
+  },
+  {
+    "id": 267,
+    "name": "d3.geo.eckert4"
+  },
+  {
+    "id": 268,
+    "name": "d3.geo.eckert5"
+  },
+  {
+    "id": 269,
+    "name": "d3.geo.eckert6"
+  },
+  {
+    "id": 270,
+    "name": "d3.geo.eisenlohr"
+  },
+  {
+    "id": 271,
+    "name": "d3.geo.equirectangular"
+  },
+  {
+    "id": 272,
+    "name": "d3.geo.fahey"
+  },
+  {
+    "id": 273,
+    "name": "d3.geo.foucaut"
+  },
+  {
+    "id": 274,
+    "name": "d3.geo.gilbert"
+  },
+  {
+    "id": 275,
+    "name": "d3.geo.ginzburg4"
+  },
+  {
+    "id": 276,
+    "name": "d3.geo.ginzburg5"
+  },
+  {
+    "id": 277,
+    "name": "d3.geo.ginzburg6"
+  },
+  {
+    "id": 278,
+    "name": "d3.geo.ginzburg8"
+  },
+  {
+    "id": 279,
+    "name": "d3.geo.ginzburg9"
+  },
+  {
+    "id": 280,
+    "name": "d3.geo.gnomonic"
+  },
+  {
+    "id": 281,
+    "name": "d3.geo.gringorten"
+  },
+  {
+    "id": 282,
+    "name": "d3.geo.guyou"
+  },
+  {
+    "id": 283,
+    "name": "d3.geo.hammer"
+  },
+  {
+    "id": 284,
+    "name": "d3.geo.hammerRetroazimuthal"
+  },
+  {
+    "id": 285,
+    "name": "d3.geo.healpix"
+  },
+  {
+    "id": 286,
+    "name": "d3.geo.hill"
+  },
+  {
+    "id": 287,
+    "name": "d3.geo.homolosine"
+  },
+  {
+    "id": 288,
+    "name": "d3.geo.kavrayskiy7"
+  },
+  {
+    "id": 289,
+    "name": "d3.geo.lagrange"
+  },
+  {
+    "id": 290,
+    "name": "d3.geo.larrivee"
+  },
+  {
+    "id": 291,
+    "name": "d3.geo.laskowski"
+  },
+  {
+    "id": 292,
+    "name": "d3.geo.littrow"
+  },
+  {
+    "id": 293,
+    "name": "d3.geo.loximuthal"
+  },
+  {
+    "id": 294,
+    "name": "d3.geo.mercator"
+  },
+  {
+    "id": 295,
+    "name": "d3.geo.miller"
+  },
+  {
+    "id": 296,
+    "name": "d3.geo.modifiedStereographic"
+  },
+  {
+    "id": 297,
+    "name": "d3.geo.mollweide"
+  },
+  {
+    "id": 298,
+    "name": "d3.geo.mtFlatPolarParabolic"
+  },
+  {
+    "id": 299,
+    "name": "d3.geo.mtFlatPolarQuartic"
+  },
+  {
+    "id": 300,
+    "name": "d3.geo.mtFlatPolarSinusoidal"
+  },
+  {
+    "id": 301,
+    "name": "d3.geo.naturalEarth"
+  },
+  {
+    "id": 302,
+    "name": "d3.geo.nellHammer"
+  },
+  {
+    "id": 303,
+    "name": "d3.geo.orthographic"
+  },
+  {
+    "id": 304,
+    "name": "d3.geo.peirceQuincuncial"
+  },
+  {
+    "id": 305,
+    "name": "d3.geo.polyconic"
+  },
+  {
+    "id": 306,
+    "name": "d3.geo.rectangularPolyconic"
+  },
+  {
+    "id": 307,
+    "name": "d3.geo.robinson"
+  },
+  {
+    "id": 308,
+    "name": "d3.geo.satellite"
+  },
+  {
+    "id": 309,
+    "name": "d3.geo.sinusoidal"
+  },
+  {
+    "id": 310,
+    "name": "d3.geo.sinuMollweide"
+  },
+  {
+    "id": 311,
+    "name": "d3.geo.stereographic"
+  },
+  {
+    "id": 312,
+    "name": "d3.geo.times"
+  },
+  {
+    "id": 313,
+    "name": "d3.geo.transverseMercator"
+  },
+  {
+    "id": 314,
+    "name": "d3.geo.twoPointAzimuthal"
+  },
+  {
+    "id": 315,
+    "name": "d3.geo.twoPointEquidistant"
+  },
+  {
+    "id": 316,
+    "name": "d3.geo.vanDerGrinten"
+  },
+  {
+    "id": 317,
+    "name": "d3.geo.vanDerGrinten2"
+  },
+  {
+    "id": 318,
+    "name": "d3.geo.vanDerGrinten3"
+  },
+  {
+    "id": 319,
+    "name": "d3.geo.vanDerGrinten4"
+  },
+  {
+    "id": 320,
+    "name": "d3.geo.wagner4"
+  },
+  {
+    "id": 321,
+    "name": "d3.geo.wagner6"
+  },
+  {
+    "id": 322,
+    "name": "d3.geo.wagner7"
+  },
+  {
+    "id": 323,
+    "name": "d3.geo.wiechel"
+  },
+  {
+    "id": 324,
+    "name": "d3.geo.winkel3"
   }
 ]
