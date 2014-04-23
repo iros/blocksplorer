@@ -1294,5 +1294,9 @@
   {
     "id": 324,
     "name": "d3.geo.winkel3"
+  },
+  {
+    "id": 325,
+    "name": "d3.chart"
   }
 ]
