@@ -1298,5 +1298,29 @@
   {
     "id": 325,
     "name": "d3.chart"
+  },
+  {
+    "id": 326,
+    "name": "d3.event.keyCode"
+  },
+  {
+    "id": 327,
+    "name": "d3.variance"
+  },
+  {
+    "id": 328,
+    "name": "d3.deviation"
+  },
+  {
+    "id": 329,
+    "name": "d3.ns"
+  },
+  {
+    "id": 330,
+    "name": "d3.geo.greatArc"
+  },
+  {
+    "id": 331,
+    "name": "d3.geom.delaunay"
   }
 ]
